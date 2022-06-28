@@ -1,0 +1,5 @@
+name: Metaterpreter
+version: '${project.version}'
+main: dev.decencies.spigot.metaterpreter.MetaterpreterPlugin
+description: An API for interfacing with Bukkit metadata.
+author: Decencies
