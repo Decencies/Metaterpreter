@@ -18,7 +18,7 @@ public void onPlayerJoin(PlayerJoinEvent event) {
     final IKeypairMetaRegistry<String> testMeta = metaterpreter
             .forPlugin(this)                // the plugin to get the registry for
             .forKey("TestMeta")             // The metadata key to use
-            .forType(String.class);         // the value of the metadata to use
+            .forType(String.class);         // the value type of the metadata to use
 
     testMeta.setMetaValue(player, "Some value.");
 
